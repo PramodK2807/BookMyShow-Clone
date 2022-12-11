@@ -30,8 +30,31 @@
 
 /* HIDDEN NAV */
 
+.login-btn-class{
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.login-btn1{
+    color: white !important;
+    background-color: #f84464 !important;
+    border: 1px solid #f84464 !important;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    font-size: 10px;
+
+}
+
 .hidden-nav{
     background-color: #333545;
+}
+
+.right-head{
+    background-color: #333545;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 13px 0;
+    padding-right: 3rem;
 }
 
 
