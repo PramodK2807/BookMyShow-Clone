@@ -382,6 +382,10 @@ color: #ffffff;
         transition: all 0.3s linear;
     }
 
+    .icon{
+        display: none;
+    }
+
 }
 
 @media (max-width:1000px) {
@@ -391,7 +395,7 @@ color: #ffffff;
 }
 
 
-@media (min-width:769px) and (max-width:1400px){
+@media (min-width:769px) and (max-width:1540px){
     .hidden-nav{
         display: none;
         
