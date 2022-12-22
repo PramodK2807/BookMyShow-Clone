@@ -28,6 +28,8 @@
 }
 
 
+
+
 /* HIDDEN NAV */
 
 .login-btn-class{
@@ -354,6 +356,27 @@ color: #ffffff;
 }
 
 
+.coupon{
+    height: 300px;
+    width: 400px;
+    background-color: #404043;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5000;
+    display: none;
+    opacity: 1 !important;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -402,3 +425,16 @@ color: #ffffff;
     }
 }
 
+
+
+
+.dark-mode{
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-moon{
+    font-size: 1.5rem;
+    color: white ;
+}

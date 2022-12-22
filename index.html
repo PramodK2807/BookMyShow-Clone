@@ -19,7 +19,7 @@
 <body>
     <nav class="navbar navbar-expand-sm nav1">
         <div class="container d-flex ">
-            <img src="https://in.bmscdn.com/webin/common/icons/logo.svg" width="120px" alt="" >
+            <img src="https://in.bmscdn.com/webin/common/icons/logo.svg" width="120px" alt="">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -32,6 +32,10 @@
                 </form>
                 <button class="login-btn ">Sign Up</button>
             </div>
+            <div>
+                <!-- <i class="fa-solid fa-sun"></i> -->
+                <i onclick="darkMode()" class="fa-solid fa-moon"></i>
+            </div>
         </div>
     </nav>
 
@@ -41,44 +45,51 @@
 
     <nav class="navbar hidden-nav fixed-top">
         <div class="container ">
-          <a class="navbar-brand" href="#"><img src="https://in.bmscdn.com/webin/common/icons/logo.svg" width="120px" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header right-head ">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="https://in.bmscdn.com/webin/common/icons/logo.svg" width="120px" alt="" class="mx-5"></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <a class="navbar-brand" href="#"><img src="https://in.bmscdn.com/webin/common/icons/logo.svg" width="120px"
+                    alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header right-head ">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img
+                            src="https://in.bmscdn.com/webin/common/icons/logo.svg" width="120px" alt="" class="mx-5">
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="bgc">
+                    <ul class="navbar-nav hidden-nav-list-items flex-grow-1">
+                        <li class="nav-item login-btn-class">
+                            <a href=""><i class="bi bi-gift"></i>Special Offers 4 You <button class="login-btn1">Login /
+                                    Register</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"><i class="bi bi-bell"></i>Notification</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"><i class="bi bi-play-btn"></i>Your WatchList</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"><i class="bi bi-gift"></i>Rewards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"><i class="bi bi-chat-square-dots"></i>Help & Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"><i class="bi bi-gear"></i>Account & Setting</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3 mx-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search movies, shows"
+                            aria-label="Search">
+                        <button class="btn btn-outline-danger" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-            <div class="bgc">
-              <ul class="navbar-nav hidden-nav-list-items flex-grow-1">
-                <li class="nav-item login-btn-class">
-                    <a href=""><i class="bi bi-gift"></i>Special Offers 4 You <button class="login-btn1">Login / Register</button></a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"><i class="bi bi-bell"></i>Notification</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"><i class="bi bi-play-btn"></i>Your WatchList</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"><i class="bi bi-gift"></i>Rewards</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"><i class="bi bi-chat-square-dots"></i>Help & Support</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"><i class="bi bi-gear"></i>Account & Setting</a>
-                </li>
-              </ul>
-              <form class="d-flex mt-3 mx-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search movies, shows" aria-label="Search">
-                <button class="btn btn-outline-danger" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
         </div>
-      </nav>
+    </nav>
 
 
 
@@ -106,7 +117,7 @@
             <div class="carousel-item active">
                 <img src="image/1.avif" class="d-block img-fluid" alt="...">
             </div>
-            
+
             <div class="carousel-item">
                 <img src="image/2.avif" class="d-block img-fluid" alt="...">
             </div>
@@ -147,7 +158,8 @@
             <div class="cover">
                 <div class="scroll-img">
                     <div class="child">
-                        <img class="child-img " src="https://i.ibb.co/QQzbMBM/et00305043-facruujjet-portrait.jpg" alt="">
+                        <img class="child-img " src="https://i.ibb.co/QQzbMBM/et00305043-facruujjet-portrait.jpg"
+                            alt="">
                         <h2 class="movie-name">Marrich</h2>
                         <p>Crime/Thriller</p>
                     </div>
@@ -190,7 +202,15 @@
     </div>
 
 
+    <!-- COUPON -->
+
+    <div class="coupon">
+        <button onclick="couponClose()">&times;</button>
+    </div>
+
     <!-- BANNER -->
+
+
 
 
     <div class="container my-5">
@@ -336,7 +356,9 @@
         </div>
     </footer>
 
-    
+
+
+    <script src="bms.js"></script>
 
 </body>
 
