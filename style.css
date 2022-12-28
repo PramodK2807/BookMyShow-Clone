@@ -355,23 +355,38 @@ color: #ffffff;
     font-size: 11px;
 }
 
-
 .coupon{
-    height: 300px;
-    width: 400px;
-    background-color: #404043;
+    height: 50vh;
+    width: 50vw;
+    overflow: hidden;
+    text-align: center;
+    background-color: #89b9ea;
+    border-radius: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 5000;
-    display: none;
     opacity: 1 !important;
+    display: none;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
 }
 
+.coupon-content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-
-
+.coupon button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 10px;
+    border: none;
+    background-color: #89b9ea;
+    font-size: 50px;
+}
 
 
 
@@ -407,6 +422,20 @@ color: #ffffff;
 
     .icon{
         display: none;
+    }
+
+    .coupon h4{
+        display: none;
+    }
+
+    .coupon-content{
+        padding: 0 10px;
+    }
+    .coupon{
+        height: 30vh;
+        width: 80vw;
+        transition: 0.3s;
+        font-size: 14px;
     }
 
 }

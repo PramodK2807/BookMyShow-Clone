@@ -27,14 +27,15 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2 input1 col-md-12" type="search"
+                    <input class="form-control input1 col-md-12" type="search"
                         placeholder="Search for movies, events, sports" aria-label="Search">
                 </form>
-                <button class="login-btn ">Sign Up</button>
+                <button class="login-btn">Sign Up</button>
             </div>
             <div>
                 <!-- <i class="fa-solid fa-sun"></i> -->
                 <i onclick="darkMode()" class="fa-solid fa-moon"></i>
+
             </div>
         </div>
     </nav>
@@ -141,7 +142,16 @@
         </button>
     </div>
 
+    <!-- COUPON -->
 
+    <div class="coupon">
+        <button class="closeBtn" onclick="closeCoupon()">&times;</button>
+        <div class="coupon-content">
+            <h4>Huge discount on all movies Grab fast,<br> Go & Watch all movies</h4>
+            <h5>Get Flat 40% Off on All Movies</h5>
+            <p>Use Coupon code : NEW30</p>
+        </div>
+    </div>
 
     <!-- Sliding Card -->
 
@@ -201,16 +211,7 @@
         </div>
     </div>
 
-
-    <!-- COUPON -->
-
-    <div class="coupon">
-        <button onclick="couponClose()">&times;</button>
-    </div>
-
     <!-- BANNER -->
-
-
 
 
     <div class="container my-5">
@@ -355,7 +356,6 @@
             </p>
         </div>
     </footer>
-
 
 
     <script src="bms.js"></script>
