@@ -41,6 +41,7 @@ iEl.addEventListener("click", () => {
 })
 
 function showPosition(data) {
+    cityEl.innerText = "Updating"
     // console.log(data);
     let lat = data.coords.latitude;
     let lon = data.coords.longitude;
