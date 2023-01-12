@@ -9,7 +9,7 @@ const bodyEl = document.querySelector("body");
 
 const closeCouponEl = document.querySelector(".closeBtn");
 const couponEl = document.querySelector(".coupon");
-
+const refresh = document.querySelector("#refresh");
 
 function closeCoupon() {
     couponEl.style.display = "none";
@@ -66,6 +66,18 @@ function showPosition(data) {
     // api calling
 
 }
+
+
+refresh.addEventListener("click", ()=>{
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }
+    else {
+        degreeEl.innerText = "Location not available";
+    }
+    iEl.classList.remove("fa-location-arrow")
+    
+});
 
 
 // function geolocation() {

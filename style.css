@@ -480,6 +480,9 @@ color: #ffffff;
     cursor: pointer;
 }
 
+.l-icons i{
+    margin: 0 10px;
+}
 .l-icons p {
     /* padding-top:5px; */
     margin: 0 20px;
