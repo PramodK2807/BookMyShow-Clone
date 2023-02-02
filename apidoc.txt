@@ -1,0 +1,14 @@
+********* Get All Movies *********
+https://bms-qiju.onrender.com/movies
+
+
+********* Get Movies By Category Id *********
+https://bms-qiju.onrender.com/categoryId/3         => category_id : 3   =>  Action Movies
+https://bms-qiju.onrender.com/categoryId/2         => category_id : 2   =>  Comedy Movies
+
+
+********* Get Movies by Cost Filter *********
+https://bms-qiju.onrender.com/sort                  => ascending order
+
+
+
